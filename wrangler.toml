@@ -1,0 +1,14 @@
+name = "github-stats-api"
+main = "backend/main.py"
+compatibility_date = "2024-12-15"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "github-stats-db"
+database_id = "your-database-id"  # 需要替换为实际的database ID
+
+[vars]
+GITHUB_TOKEN = "your-github-token"  # 需要替换为实际的GitHub Token
+
+[site]
+bucket = "./frontend/build"
